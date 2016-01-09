@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import Container from '../ui/Container';
 import Sidebar from './Sidebar';
-import MainContent from './MainContent';
+import Main from './Main';
 
 class Resume extends Component {
   render() {
     return (
       <Container>
         <Sidebar data={DATA.sidebar} />
-        <MainContent data={DATA.experience} />
+        <Main {...DATA.experience} />
       </Container>
     );
   }
@@ -19,7 +19,7 @@ const DATA = {
     name: 'Ramanpreet Nara',
     program: {
       term: '3A',
-      nickname: 'Softie',
+      nickname: 'softie',
       name: 'Software Engineering',
     },
     languages: [{
@@ -67,31 +67,56 @@ const DATA = {
     ],
   },
   experience: {
-    work: {
-      recent: {
-        projects: [{
-          name: 'Sideboard',
-          achievements: [
-            'Designed algorithm to calculate project Cycle Times using PivotalTracker\'s APIs, and Keen.io',
-            'Coauthored a simple react + redux front-end, and a Koa.js back-end',
-            'Used frequently by SCRUM Masters and CTO to monitor the health of all Rangle.io projects',
-          ],
-        }, {
-          name: 'Project Augury',
-          achievements: [
-            'Interfaced with ResourceGuru\'s API\'s to implement a vacation request form',
-            'Decoupled, tested, and modularized spaghetti server code',
-          ],
-        }, {
-          name: 'Livefyre HTML Embed',
-          achievements: [
-            'Successfully led an architectural overhaul 3 weeks into the (8 week long) project',
-            'Implemented cross-browser SVG animations to minimize embed size',
-            'Coordinated with client engineers to find and fix faults in software',
-          ],
-        }],
-      },
-    },
+    companies: [{
+      name: 'Rangle.io',
+      color: 'rgb(77, 100, 141)',
+      title: 'Full Stack JavaScript Developer',
+      projects: [{
+        name: 'Sideboard',
+        tools: ['ECMAScript 2015', 'Ramda', 'Immutable', 'Keen.io'],
+        achievements: [
+          'Designed an algorithm to aggregate Cycle Times using PivotalTracker APIs',
+          'Coauthored a simple react + redux front-end, and a Koa.js back-end',
+        ],
+      }, {
+        name: 'Project Augury',
+        tools: ['TypeScript', 'Express', 'Mocha', 'Chai'],
+        achievements: [
+          'Used ResourceGuru APIs to implement Rangle.io\'s "vacation request form"',
+          'Decoupled, tested, and modularized spaghetti server code',
+        ],
+      }, {
+        name: 'Livefyre HTML Embed',
+        tools: ['ECMAScript 2015', 'Webpack', 'Lodash'],
+        achievements: [
+          'Successfully led an architectural overhaul 3 weeks into 8 week long project',
+          'Implemented cross-browser SVG animations to minimize embed size',
+          'Collaborated with client engineers to find and fix faults in software',
+        ],
+      }],
+    }, {
+      name: 'Ntree',
+      title: 'Angular JS Developer',
+      color: 'rgb(77, 100, 141)',
+      projects: [{
+        name: 'SalesTree',
+        tools: ['ECMAScript 2015', 'Angular', 'Broccoli', 'Gulp', 'Bootstrap'],
+        achievements: [
+          'Helped implement a responsive tablet interface using Bootstrap and LESS',
+          'Created services to monitor user activities, and log client-side errors server-side',
+          'Recreated the client-side build infrastructure using Broccoli to cut rebuild time by 90%',
+        ],
+      }],
+    }, {
+      name: 'Ontario Ministry of Government Services',
+      title: 'Interactive Developer',
+      color: 'rgb(77, 100, 141)',
+      achievements: [
+        'Built and provisioned Vagrant development environments for four projects',
+        'Implemented query caching on the Premier\'s website, cutting load-times in half',
+        'Secured a legacy PHP application by removing dependency on old, deprecated, and unsafe PHP APIs',
+      ],
+    }],
   },
 };
 

@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-const Language = ({ name, proficiency }) => (
+const Language = ({ name }) => (
   <div style={style.main}>
     <div>{name}</div>
   </div>

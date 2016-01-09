@@ -22,12 +22,12 @@ const Sidebar = ({ data }) => (
 const style = {
   main: {
     width: '27.5%',
-    backgroundColor: 'rgba(0,175,50,1)',
+    backgroundColor: 'rgba(118,136,169,0.125)',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
     padding: '2rem',
-    color: 'white',
+    color: 'rgb(5, 24, 56)',
   },
 };
 

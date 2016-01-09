@@ -1,10 +1,9 @@
 import React, { PropTypes } from 'react';
 import Language from './Language';
-import * as Styles from '../../styles';
 
 const Languages = ({ data: languages }) => (
   <section style={style.main}>
-    <h1 style={style.heading}>Languages</h1>
+    <h1>Languages</h1>
     <div>
       {languages.map((language, index) => (
         <Language
@@ -19,9 +18,6 @@ const Languages = ({ data: languages }) => (
 const style = {
   main: {
     margin: '1rem 0',
-  },
-  heading: {
-    ...Styles.h1,
   },
 };
 

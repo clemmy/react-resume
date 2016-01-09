@@ -6,26 +6,23 @@ const Identity = ({ name, program }) => {
   const { nickname, term } = program;
   return (
     <section style={style.main}>
-      <h1 style={style.name}>
-        {name}
+      <h1 style={style.h1}>
+        {name},
       </h1>
-      <h2 style={style.program}>
-        {term} {nickname} <Asterisk />
+      <h2>
+        the {term} {nickname}<Asterisk />
       </h2>
     </section>
   );
 };
 
 const style = {
-  name: {
-    ...Styles.h1,
-  },
-  program: {
-    ...Styles.h2,
-  },
   main: {
-    marginBottom: '2rem',
-  }
+    marginBottom: '3rem',
+  },
+  h1: {
+    fontSize: '2.25rem',
+  },
 };
 
 Identity.propTypes = {

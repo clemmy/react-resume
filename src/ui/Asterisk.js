@@ -7,7 +7,7 @@ const Asterisk = () => (
 const style = {
   position: 'relative',
   top: '-0.25em',
-  fontSize: '80%',
+  fontSize: '20%',
 };
 
 export default Asterisk;

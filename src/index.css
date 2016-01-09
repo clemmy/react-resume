@@ -7,3 +7,19 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.25rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  font-size: 1.0rem;
+}

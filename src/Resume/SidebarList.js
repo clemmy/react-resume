@@ -4,7 +4,7 @@ const SidebarList = ({ items }) => (
   <div style={style}>
     {items.map((item, key) => (
       <span key={key}>
-         {item + ' '}
+        {item + ((key === items.length - 1) ? '' : ', ')}
       </span>
     ))}
   </div>
