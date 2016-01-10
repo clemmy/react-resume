@@ -8,7 +8,7 @@ class Resume extends Component {
     return (
       <Container>
         <Sidebar data={DATA.sidebar} />
-        <Main {...DATA.experience} />
+        <Main {...DATA.main} />
       </Container>
     );
   }
@@ -22,24 +22,28 @@ const DATA = {
       nickname: 'Software Engineering',
       name: 'Software Engineering',
     },
+    education: {
+      university: 'University of Waterloo',
+      duration: 'Sept 13 - PRESENT',
+    },
     languages: [{
       name: 'JavaScript',
       proficiency: 0.8,
     }, {
-      name: 'C++',
-      proficiency: 0.6,
-    }, {
-      name: 'CSS',
-      proficiency: 0.6,
-    }, {
       name: 'Clojure',
       proficiency: 0.4,
+    }, {
+      name: 'C++',
+      proficiency: 0.6,
     }, {
       name: 'HTML',
       proficiency: 0.75,
     }, {
       name: 'PHP',
       proficiency: 0.4,
+    }, {
+      name: 'CSS',
+      proficiency: 0.6,
     }, {
       name: 'BASH',
       proficiency: 0.3,
@@ -71,8 +75,30 @@ const DATA = {
       'MongoDB',
       'Redis',
     ],
+    links: [{
+      name: 'Phone',
+      display: '1-647-609-4290',
+      link: 'tel:+16576094290',
+    }, {
+      name: 'Email',
+      display: 'rsnara@uwaterloo.ca',
+      link: 'mailto:rsnara@uwaterloo.ca',
+    }, {
+      name: 'CodePen',
+      display: 'rsnara',
+      link: 'http://codepen.io',
+    }, {
+      name: 'GitHub',
+      display: 'noodlemaster',
+      link: 'https://github.com/noodlemaster',
+    }],
   },
-  experience: {
+  main: {
+    interests: [
+      'Following technological advancements; scripting; digital art; Project Euler',
+      'As a young grasshopper, exploring the mysterious arts of the JavaScript ninja',
+      // 'Occasionally sipping from the Clojure fire hose',
+    ],
     companies: [{
       name: 'Rangle.io',
       color: 'rgb(77, 100, 141)',

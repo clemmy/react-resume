@@ -1,9 +1,10 @@
 import React, { PropTypes } from 'react';
 import Language from './Language';
+import SidebarHeading from '../SidebarHeading';
 
 const Languages = ({ data: languages }) => (
   <section style={style.main}>
-    <h1>Languages</h1>
+    <SidebarHeading>Languages</SidebarHeading>
     <div>
       {languages.map((language, index) => (
         <Language

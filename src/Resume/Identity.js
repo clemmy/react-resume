@@ -7,7 +7,7 @@ const Identity = ({ name, program }) => {
       <h1 style={style.h1}>
         {name}
       </h1>
-      <h3>
+      <h3 style={style.h3}>
         {term} {nickname}
       </h3>
     </section>
@@ -16,10 +16,13 @@ const Identity = ({ name, program }) => {
 
 const style = {
   main: {
-    marginBottom: '3rem',
+    marginBottom: '1.5rem',
   },
   h1: {
-    // fontSize: '2.25rem',
+    textAlign: 'center',
+  },
+  h3: {
+    textAlign: 'center',
   },
 };
 

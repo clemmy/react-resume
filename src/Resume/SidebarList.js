@@ -1,19 +1,36 @@
 import React, { PropTypes } from 'react';
+import SidebarHeading from './SidebarHeading';
 
-const SidebarList = ({ items }) => (
-  <div style={style}>
-    {items.map((item, key) => (
-      <span key={key}>
-        {item + ((key === items.length - 1) ? '' : ', ')}
-      </span>
-    ))}
-  </div>
+const SidebarList = ({ items, title }) => (
+  <section style={style.main}>
+    <SidebarHeading> {title} </SidebarHeading>
+    <div style={style.list}>
+      {items.map((item, key) => (
+        <span key={key}>
+          {item + createSeparator(key, items)}
+        </span>
+      ))}
+    </div>
+  </section>
 );
 
+function createSeparator(index, array) {
+  if (index < array.length - 1) {
+    return ', ';
+  }
+
+  return '';
+}
+
 const style = {
-  breakWord: 'normal',
-  textAlign: 'justify',
-  textJustify: 'inter-word',
+  main: {
+    margin: '1.5rem 0',
+  },
+  list: {
+    breakWord: 'normal',
+    textAlign: 'right',
+    // textJustify: 'inter-word',
+  },
 };
 
 SidebarList.propTypes = {

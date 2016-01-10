@@ -1,23 +1,35 @@
 import React, { PropTypes } from 'react';
 import Identity from './Identity';
 import Languages from './Languages';
-import Frameworks from './Frameworks';
-import Tools from './Tools';
+import SidebarList from './SidebarList';
+import ContactLinks from './ContactLinks';
+import HorizontalRule from '../ui/HorizontalRule';
+import Education from './Education';
 
 const Sidebar = ({ data }) => (
   <section style={style.main}>
     <div>
       <Identity name={data.name} program={data.program} />
+      <HorizontalRule />
+      <ContactLinks data={data.links} />
+      <HorizontalRule />
       <Languages data={data.languages} />
-      <Frameworks data={data.frameworks} />
-      <Tools data={data.tools} />
+      <SidebarList title="Libraries" items={data.libraries} />
+      <SidebarList title="Frameworks" items={data.frameworks} />
+      <SidebarList title="Tools" items={data.tools} />
+      <HorizontalRule />
+    </div>
+    <div>
+      <Education
+        university={data.education.university}
+        duration={data.education.duration} />
     </div>
   </section>
 );
 
 const style = {
   main: {
-    width: '27%',
+    width: '29%',
     backgroundColor: 'rgba(118,136,169,0.125)',
     display: 'flex',
     flexDirection: 'column',
