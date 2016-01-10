@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
 import Identity from './Identity';
-import Asterisk from '../ui/Asterisk';
 import Languages from './Languages';
 import Frameworks from './Frameworks';
 import Tools from './Tools';
@@ -13,15 +12,12 @@ const Sidebar = ({ data }) => (
       <Frameworks data={data.frameworks} />
       <Tools data={data.tools} />
     </div>
-    <section>
-      <Asterisk /> {data.program.name}
-    </section>
   </section>
 );
 
 const style = {
   main: {
-    width: '27.5%',
+    width: '27%',
     backgroundColor: 'rgba(118,136,169,0.125)',
     display: 'flex',
     flexDirection: 'column',

@@ -1,33 +1,22 @@
 import React, { PropTypes } from 'react';
 
-const Section = ({ name, children }) => (
-  <section>
-    <h1 style={style.heading}>{transformName(name)}</h1>
-    <div style={style.body}>{children}</div>
+const Section = ({ color, children }) => (
+  <section style={{
+    borderTop: '0.1px solid ' + color,
+    // borderBottom: '1px solid ' + color,
+    borderLeft: '0.5rem solid ' + color,
+    backgroundColor: 'rgba(118, 136, 169, 0.05)',
+    marginBottom: '1rem',
+    padding: '0.025rem 1.2rem',
+  }}>
+    {children}
   </section>
 );
 
 Section.propTypes = {
-  name: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
 
-const style = {
-  heading: {
-    backgroundColor: 'rgba(123, 188, 255, 0.1)',
-    padding: '0.5rem 1.5rem',
-  },
-  body: {
-    padding: '0.5rem 1.5rem',
-  },
-};
-
-function transformName(name) {
-  return name.split(/[-\s]/).map(capitalize).join(' ');
-}
-
-function capitalize(word) {
-  return word[0].toUpperCase() + word.slice(1);
-}
 
 export default Section;

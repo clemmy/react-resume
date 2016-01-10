@@ -9,6 +9,7 @@ const Companies = ({ data: companies }) => (
         key={key}
         name={company.name}
         projects={company.projects}
+        title={company.title}
         achievements={company.achievements} />
     ))}
   </div>

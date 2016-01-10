@@ -1,22 +1,17 @@
 import React, { PropTypes } from 'react';
 import Project from './Project';
 import List from '../ui/List';
+import CompanyHeading from './CompanyHeading';
+import Section from '../ui/Section';
 
-const Company = ({ color, name, projects = [], achievements = [] }) => (
-  <section style={{
-    borderLeft: '0.5rem solid ' + color,
-    backgroundColor: 'rgba(118, 136, 169, 0.05)',
-    marginBottom: '1.5rem',
-  }}>
-    <h1 style={{
+const Company = ({ color, name, title, projects = [], achievements = [] }) => (
+  <div>
+    <CompanyHeading company={name} title={title} style={{
       backgroundColor: color,
-      color: 'white',
-      padding: '0.25rem',
-    }}>
-      {name}
-    </h1>
+      paddingLeft: '0.5rem',
+    }}/>
 
-    <div style={style.children}>
+    <Section color={color}>
       <List items={achievements} />
       {projects.map((project, key) => (
         <Project
@@ -25,8 +20,8 @@ const Company = ({ color, name, projects = [], achievements = [] }) => (
           tools={project.tools}
           key={key} />
       ))}
-    </div>
-  </section>
+    </Section>
+  </div>
 );
 
 const style = {
@@ -38,6 +33,7 @@ const style = {
 Company.propTypes = {
   color: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
 

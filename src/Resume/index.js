@@ -19,7 +19,7 @@ const DATA = {
     name: 'Ramanpreet Nara',
     program: {
       term: '3A',
-      nickname: 'softie',
+      nickname: 'Software Engineering',
       name: 'Software Engineering',
     },
     languages: [{
@@ -48,12 +48,18 @@ const DATA = {
       'Node.js',
       'Redux',
       'Express',
-      'Koa.js',
+      'Koa',
       'Angular',
       'Ember',
       'Sails',
       'SCRUM',
+      'Mocha',
+    ],
+    libraries: [
       'React',
+      'Ramda',
+      'Immutable',
+      'Chai',
     ],
     tools: [
       'Unix CLI',
@@ -76,18 +82,18 @@ const DATA = {
         tools: ['ECMAScript 2015', 'Ramda', 'Immutable', 'Keen.io'],
         achievements: [
           'Designed an algorithm to aggregate Cycle Times using PivotalTracker APIs',
-          'Coauthored a simple react + redux front-end, and a Koa.js back-end',
+          'Coauthored a simple React + Redux front-end, and a Koa.js back-end',
         ],
       }, {
         name: 'Project Augury',
         tools: ['TypeScript', 'Express', 'Mocha', 'Chai'],
         achievements: [
-          'Used ResourceGuru APIs to implement Rangle.io\'s "vacation request form"',
+          'Used ResourceGuru APIs to implement Rangle.io\'s Vacation Request Form',
           'Decoupled, tested, and modularized spaghetti server code',
         ],
       }, {
         name: 'Livefyre HTML Embed',
-        tools: ['ECMAScript 2015', 'Webpack', 'Lodash'],
+        tools: ['ECMAScript 2015', 'DOM', 'SVG', 'Webpack'],
         achievements: [
           'Successfully led an architectural overhaul 3 weeks into 8 week long project',
           'Implemented cross-browser SVG animations to minimize embed size',
@@ -102,19 +108,35 @@ const DATA = {
         name: 'SalesTree',
         tools: ['ECMAScript 2015', 'Angular', 'Broccoli', 'Gulp', 'Bootstrap'],
         achievements: [
-          'Helped implement a responsive tablet interface using Bootstrap and LESS',
-          'Created services to monitor user activities, and log client-side errors server-side',
-          'Recreated the client-side build infrastructure using Broccoli to cut rebuild time by 90%',
+          'Helped implement a responsive tablet interface using Bootstrap, and LESS',
+          'Created services to monitor user activities and log client-side errors server-side',
+          'Recreated client-side build infrastructure using Broccoli, cutting rebuild times by more than 75%',
         ],
       }],
     }, {
-      name: 'Ontario Ministry of Government Services',
+      name: 'Ontario Ministry of Govt. Services',
       title: 'Interactive Developer',
       color: 'rgb(77, 100, 141)',
       achievements: [
         'Built and provisioned Vagrant development environments for four projects',
-        'Implemented query caching on the Premier\'s website, cutting load-times in half',
-        'Secured a legacy PHP application by removing dependency on old, deprecated, and unsafe PHP APIs',
+        'Halved load times on the Premier\'s website by implementing query caching',
+        'Refactored authentication on a legacy PHP app, switching from MD5 to BCrypt',
+      ],
+    }],
+    projects: [{
+      name: 'LOLQueen - League of Legends',
+      tools: ['Redux', 'Radium', 'Immutable', 'BASSCSS', 'ramda'],
+      link: 'http://lolqueen.net',
+      achievements: [
+        'Authored utilities to query RIOT\'s APIs that seamlessly handle rate limiting',
+        'Built a React + Redux front-end to display Summoner Match history',
+      ],
+    }, {
+      name: 'CVAS - HTML5 Canvas Hack',
+      tools: ['Socket.io', 'Express'],
+      link: 'http://cvas.herokuapp.com',
+      achievements: [
+        'Used message passing to keep canvas state efficiently in sync between users',
       ],
     }],
   },
