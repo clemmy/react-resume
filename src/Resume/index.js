@@ -96,8 +96,8 @@ const DATA = {
   main: {
     interests: [
       'Following technological advancements; scripting; digital art; Project Euler',
-      'As a young grasshopper, exploring the mysterious arts of the JavaScript ninja',
-      // 'Occasionally sipping from the Clojure fire hose',
+      'Exploring the mysterious arts of the JavaScript ninja',
+      'Over-engineering resumes using React',
     ],
     companies: [{
       name: 'Rangle.io',
@@ -151,7 +151,7 @@ const DATA = {
     }],
     projects: [{
       name: 'LOLQueen - League of Legends',
-      tools: ['Redux', 'Radium', 'Immutable', 'BASSCSS', 'ramda'],
+      tools: ['Redux', 'Radium', 'Immutable', 'BASSCSS', 'Ramda'],
       link: 'http://lolqueen.net',
       achievements: [
         'Authored utilities to query RIOT\'s APIs that seamlessly handle rate limiting',
