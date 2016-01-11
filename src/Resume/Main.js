@@ -31,9 +31,7 @@ const Main = ({ companies, projects, interests }) => (
 
 const style = {
   main: {
-    minHeight: '100%',
-    width: '73%',
-    padding: '2rem 1rem',
+    padding: '2rem 1.25rem',
   },
 };
 

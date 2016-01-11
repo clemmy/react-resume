@@ -7,8 +7,8 @@ class Resume extends Component {
   render() {
     return (
       <Container>
-        <Sidebar data={DATA.sidebar} />
         <Main {...DATA.main} />
+        <Sidebar data={DATA.sidebar} />
       </Container>
     );
   }
