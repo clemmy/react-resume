@@ -9,7 +9,7 @@ const style = {
   color: 'white',
   flex: '1 1 auto',
   fontSize: '1.6rem',
-  background: 'rgb(119, 137, 170)'
+  background: 'rgba(47, 152, 175, 1)',
 };
 
 export default Header;

@@ -7,7 +7,6 @@ import Section from '../ui/Section';
 const Company = ({ color, name, title, projects = [], achievements = [] }) => (
   <div>
     <CompanyHeading company={name} title={title} style={{
-      backgroundColor: color,
       paddingLeft: '0.5rem',
     }}/>
 

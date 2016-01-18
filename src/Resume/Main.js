@@ -8,12 +8,12 @@ import Identity from './Identity';
 
 // http://paletton.com/#uid=13I0u0kllllaFw0g0qFqFg0w0aF
 
-const Main = ({ name, program, companies, projects, interests }) => (
+const Main = ({ firstName, lastName, program, companies, projects, interests }) => (
   <section style={style.main}>
-    <Identity name={name} program={program} />
-    <MainHeading title="Work Experience" />
+    <Identity firstName={firstName} lastName={lastName} program={program} />
+    <MainHeading title="+ Work Experience" />
     <Companies data={companies} />
-    <MainHeading title="Projects" />
+    <MainHeading title="+ Projects" />
       {projects.map((project, key) => (
         <Section color="rgb(77, 100, 141)" key={key}>
           <Project
@@ -24,10 +24,6 @@ const Main = ({ name, program, companies, projects, interests }) => (
             key={key} />
         </Section>
       ))}
-    <MainHeading title="Activities & Interests" />
-    <Section color="rgb(77, 100, 141)">
-      <List items={interests} />
-    </Section>
   </section>
 );
 
@@ -38,6 +34,8 @@ const style = {
 };
 
 Main.propTypes = {
+  firstName: PropTypes.string.isRequired,
+  lastName: PropTypes.string.isRequired,
   companies: PropTypes.arrayOf(PropTypes.object).isRequired,
   projects: PropTypes.arrayOf(PropTypes.object).isRequired,
   interests: PropTypes.arrayOf(PropTypes.string).isRequired,

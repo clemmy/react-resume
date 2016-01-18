@@ -94,7 +94,8 @@ const DATA = {
     }],
   },
   main: {
-    name: 'Ramanpreet Nara',
+    firstName: 'Clement',
+    lastName: 'Hoang',
     program: {
       term: '3A',
       nickname: 'Software Engineering',
@@ -109,42 +110,21 @@ const DATA = {
       name: 'Rangle.io',
       color: 'rgb(77, 100, 141)',
       title: 'Full Stack JavaScript Developer',
-      projects: [{
-        name: 'Sideboard',
-        tools: ['ECMAScript 2015', 'Ramda', 'Immutable', 'Keen.io'],
-        achievements: [
-          'Designed an algorithm to aggregate Cycle Times using PivotalTracker APIs',
-          'Coauthored a simple React + Redux front-end, and a Koa.js back-end',
-        ],
-      }, {
-        name: 'Project Augury',
-        tools: ['TypeScript', 'Express', 'Mocha', 'Chai'],
-        achievements: [
-          'Used ResourceGuru APIs to implement Rangle.io\'s Vacation Request Form',
-          'Decoupled, tested, and modularized spaghetti server code',
-        ],
-      }, {
-        name: 'Livefyre HTML Embed',
-        tools: ['ECMAScript 2015', 'DOM', 'SVG', 'Webpack'],
-        achievements: [
-          'Successfully led an architectural overhaul 3 weeks into 8 week long project',
-          'Implemented cross-browser SVG animations to minimize embed size',
-          'Collaborated with client engineers to find and fix faults in software',
-        ],
-      }],
+      achievements: [
+        'Successfully led an architectural overhaul 3 weeks into 8 week long project',
+        'Implemented cross-browser SVG animations to minimize embed size',
+        'Collaborated with client engineers to find and fix faults in software',
+      ],
     }, {
       name: 'Ntree',
       title: 'Angular JS Developer',
       color: 'rgb(77, 100, 141)',
-      projects: [{
-        name: 'SalesTree',
-        tools: ['ECMAScript 2015', 'Angular', 'Broccoli', 'Gulp', 'Bootstrap'],
-        achievements: [
-          'Helped implement a responsive tablet interface using Bootstrap, and LESS',
-          'Created services to monitor user activities and log client-side errors server-side',
-          'Recreated client-side build infrastructure using Broccoli, cutting rebuild times by more than 75%',
-        ],
-      }],
+      achievements: [
+        'Helped implement a responsive tablet interface using Bootstrap, and LESS',
+        'Created services to monitor user activities and log client-side errors server-side',
+        'Recreated client-side build infrastructure using Broccoli, cutting rebuild times by more than 75%',
+        ['ECMAScript 2015', 'Angular', 'Broccoli', 'Gulp', 'Bootstrap'].join(', ')
+      ]
     }, {
       name: 'Ontario Ministry of Govt. Services',
       title: 'Interactive Developer',

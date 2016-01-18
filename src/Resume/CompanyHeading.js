@@ -16,17 +16,17 @@ const defaultStyles = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingRight: '0.75rem',
+    paddingRight: '0.75rem'
   },
   company: {
     fontSize: '1.25rem',
     fontWeight: 'bold',
-    color: 'white',
+    color: 'rgba(47, 152, 175, 1)',
     padding: '0.25rem',
   },
   title: {
     fontSize: '1rem',
-    color: 'rgba(255,255,255,0.75)',
+    color: 'rgba(78, 78, 78 , 1)',
     padding: '0.25rem',
   },
 };

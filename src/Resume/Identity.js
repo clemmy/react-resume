@@ -1,15 +1,17 @@
 import React, { PropTypes } from 'react';
 
-const Identity = ({ name, program }) => {
+const Identity = ({ firstName, lastName, program }) => {
   const { nickname, term } = program;
   return (
     <section style={style.main}>
       <h1 style={style.h1}>
-        {name}
+        <span style={style.span}>{firstName.toUpperCase()}</span>
+        <span style={style.span}>&nbsp;</span>
+        <span style={style.span}>{lastName.toUpperCase()}</span>
       </h1>
-      <h3 style={style.h3}>
+      <h2 style={style.h2}>
         {term} {nickname}
-      </h3>
+      </h2>
     </section>
   );
 };
@@ -19,15 +21,21 @@ const style = {
     marginBottom: '1.5rem',
   },
   h1: {
-    textAlign: 'center',
+    display: 'block',
+    fontSize: '1.8rem',
+    color: 'rgba(47, 152, 175, 1)',
   },
-  h3: {
-    textAlign: 'center',
+  h2: {
+    fontSize: '1.4rem'
   },
+  span: {
+    display: 'inline-block',
+  }
 };
 
 Identity.propTypes = {
-  name: PropTypes.string.isRequired,
+  firstName: PropTypes.string.isRequired,
+  lastName: PropTypes.string.isRequired,
   program: PropTypes.object.isRequired,
 };
 
