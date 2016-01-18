@@ -10,7 +10,7 @@ const ContactLink = ({ display, link, name }) => (
 const style = {
   main: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-start',
   },
   name: {
     fontWeight: 'bold',

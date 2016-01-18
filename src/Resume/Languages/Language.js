@@ -10,7 +10,7 @@ const Language = ({ name }) => (
 const style = {
   main: {
     display: 'flex',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-start',
   },
 };
 

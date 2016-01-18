@@ -28,7 +28,7 @@ const style = {
   },
   list: {
     breakWord: 'normal',
-    textAlign: 'right',
+    textAlign: 'left',
     // textJustify: 'inter-word',
   },
 };

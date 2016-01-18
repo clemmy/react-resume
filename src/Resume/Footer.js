@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 
 const Footer = () => (
-  <section style={style} >footer</section>
+  <section style={style}>link1 link2 link3</section>
 );
 
 const style = {

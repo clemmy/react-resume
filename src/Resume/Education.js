@@ -3,7 +3,7 @@ import SidebarHeading from './SidebarHeading';
 
 const Education = ({ university, duration }) => (
   <section style={style.main}>
-    <SidebarHeading align="right">Education</SidebarHeading>
+    <SidebarHeading align="left">Education</SidebarHeading>
     <div style={{
       ...style.text,
       fontWeight: 'bold',
@@ -17,7 +17,7 @@ const style = {
     margin: '1.5rem 0 0 0',
   },
   text: {
-    textAlign: 'right',
+    textAlign: 'left',
   },
 };
 

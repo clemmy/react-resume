@@ -24,7 +24,7 @@ const DATA = {
   sidebar: {
     education: {
       university: 'University of Waterloo',
-      duration: 'Sept 13 - PRESENT',
+      duration: 'Sept 2013 - now',
     },
     languages: [{
       name: 'JavaScript',

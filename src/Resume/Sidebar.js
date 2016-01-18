@@ -31,7 +31,7 @@ const style = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    padding: '2rem',
+    padding: '1.4rem',
     color: 'rgb(5, 24, 56)',
   },
 };
