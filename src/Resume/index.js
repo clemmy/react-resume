@@ -2,13 +2,19 @@ import React, { Component } from 'react';
 import Container from '../ui/Container';
 import Sidebar from './Sidebar';
 import Main from './Main';
+import Header from './Header';
+import Footer from './Footer';
 
 class Resume extends Component {
   render() {
     return (
       <Container>
-        <Main {...DATA.main} />
-        <Sidebar data={DATA.sidebar} />
+        <Header />
+        <div style={{ display: 'flex' }}>
+          <Main {...DATA.main} />
+          <Sidebar data={DATA.sidebar} />
+        </div>
+        <Footer />
       </Container>
     );
   }
@@ -16,12 +22,6 @@ class Resume extends Component {
 
 const DATA = {
   sidebar: {
-    name: 'Ramanpreet Nara',
-    program: {
-      term: '3A',
-      nickname: 'Software Engineering',
-      name: 'Software Engineering',
-    },
     education: {
       university: 'University of Waterloo',
       duration: 'Sept 13 - PRESENT',
@@ -94,6 +94,12 @@ const DATA = {
     }],
   },
   main: {
+    name: 'Ramanpreet Nara',
+    program: {
+      term: '3A',
+      nickname: 'Software Engineering',
+      name: 'Software Engineering',
+    },
     interests: [
       'Following technological advancements; scripting; digital art; Project Euler',
       'Exploring the mysterious arts of the JavaScript ninja',

@@ -1,5 +1,4 @@
 import React, { PropTypes } from 'react';
-import Identity from './Identity';
 import Languages from './Languages';
 import SidebarList from './SidebarList';
 import ContactLinks from './ContactLinks';
@@ -9,8 +8,6 @@ import Education from './Education';
 const Sidebar = ({ data }) => (
   <section style={style.main}>
     <div>
-      <Identity name={data.name} program={data.program} />
-      <HorizontalRule />
       <ContactLinks data={data.links} />
       <HorizontalRule />
       <Languages data={data.languages} />
@@ -29,7 +26,7 @@ const Sidebar = ({ data }) => (
 
 const style = {
   main: {
-    width: '29%',
+    width: '34%',
     backgroundColor: 'rgba(118,136,169,0.125)',
     display: 'flex',
     flexDirection: 'column',

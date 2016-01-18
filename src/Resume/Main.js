@@ -4,11 +4,13 @@ import MainHeading from './MainHeading';
 import Project from './Project';
 import Section from '../ui/Section';
 import List from '../ui/List';
+import Identity from './Identity';
 
 // http://paletton.com/#uid=13I0u0kllllaFw0g0qFqFg0w0aF
 
-const Main = ({ companies, projects, interests }) => (
+const Main = ({ name, program, companies, projects, interests }) => (
   <section style={style.main}>
+    <Identity name={name} program={program} />
     <MainHeading title="Work Experience" />
     <Companies data={companies} />
     <MainHeading title="Projects" />

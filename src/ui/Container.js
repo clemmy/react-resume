@@ -20,6 +20,8 @@ const style = {
   margin: '0 auto',
   fontFamily: '\'Open Sans\', sans-serif',
   display: 'flex',
+  flexDirection: 'row',
+  flexWrap: 'wrap'
 };
 
 export default radium(Container);
