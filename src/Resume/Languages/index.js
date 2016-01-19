@@ -18,7 +18,7 @@ const Languages = ({ data: languages }) => (
 
 const style = {
   main: {
-    margin: '1rem 0',
+    margin: '0.2rem 0 0.6rem 0',
   },
 };
 

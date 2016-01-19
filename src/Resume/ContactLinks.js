@@ -17,7 +17,7 @@ const ContactLinks = ({ data: links }) => (
 
 const style = {
   main: {
-    marginBottom: '1.2rem',
+    marginBottom: '0.2rem',
   },
   heading: {
     textAlign: 'left',
