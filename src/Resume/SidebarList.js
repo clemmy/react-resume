@@ -1,22 +1,21 @@
 import React, { PropTypes } from 'react';
 import SidebarHeading from './SidebarHeading';
 
-const SidebarList = ({ items, title }) => (
+const SidebarList = ({ items, title, separator }) => (
   <section style={style.main}>
     <SidebarHeading> {title} </SidebarHeading>
     <div style={style.list}>
       {items.map((item, key) => (
-        <span key={key}>
-          {item + createSeparator(key, items)}
+        <span key={key} dangerouslySetInnerHTML={{__html: item + createSeparator(key, items, separator)}}>
         </span>
       ))}
     </div>
   </section>
 );
 
-function createSeparator(index, array) {
+function createSeparator(index, array, separator=', ') {
   if (index < array.length - 1) {
-    return ', ';
+    return separator;
   }
 
   return '';

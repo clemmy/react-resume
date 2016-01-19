@@ -23,7 +23,7 @@ const style = {
     padding: '14px 0 1px 24px',
     flex: '1 1 auto',
     fontSize: '1.6rem',
-    background: 'rgba(118, 136, 169, 0.125)',
+    // background: 'rgba(118, 136, 169, 0.125)',
     marginBottom: '-2.5em',
     height: '9rem',
   },

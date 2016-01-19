@@ -13,10 +13,12 @@ const Sidebar = ({ data }) => (
       <SidebarList title="+ LIB/FRAMEWORKS" items={data.libraries} />
       <SidebarList title="+ DATABASES" items={data.databases} />
       <SidebarList title="+ TOOLS" items={data.tools} />
+      <SidebarList title="+ INTERESTS" items={data.interests} separator={'<br/>'} />
     </div>
     <div>
       <Education
         university={data.education.university}
+        degree={data.education.degree}
         duration={data.education.duration} />
     </div>
   </section>

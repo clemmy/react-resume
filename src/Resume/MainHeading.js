@@ -6,7 +6,7 @@ const MainHeading = ({ title }) => (
 
 const style = {
   main: {
-    // margin: '0 0 1rem 0',
+    marginBottom: '0.6rem',
     color: 'rgba(21, 44, 85, 1)',
     padding: '0.25rem',
     borderBottom: '1px solid rgba(21, 44, 85, 1)'

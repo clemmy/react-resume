@@ -4,9 +4,9 @@ import List from '../ui/List';
 import CompanyHeading from './CompanyHeading';
 import Section from '../ui/Section';
 
-const Company = ({ color, name, title, projects = [], achievements = [] }) => (
+const Company = ({ color, name, title, projects = [], achievements = [], date, location }) => (
   <div>
-    <CompanyHeading company={name} title={title} style={{
+    <CompanyHeading company={name} title={title} date={date} location={location} style={{
       paddingLeft: '0.5rem',
     }}/>
 
@@ -33,6 +33,8 @@ Company.propTypes = {
   color: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
   children: PropTypes.node,
 };
 
