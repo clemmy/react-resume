@@ -8,7 +8,7 @@ import Identity from './Identity';
 
 // http://paletton.com/#uid=13I0u0kllllaFw0g0qFqFg0w0aF
 
-const Main = ({ firstName, lastName, program, companies, projects, interests }) => (
+const Main = ({ firstName, lastName, program, companies, projects }) => (
   <section style={style.main}>
     <MainHeading title="+ Work Experience" />
     <Companies data={companies} />
@@ -37,7 +37,6 @@ Main.propTypes = {
   lastName: PropTypes.string.isRequired,
   companies: PropTypes.arrayOf(PropTypes.object).isRequired,
   projects: PropTypes.arrayOf(PropTypes.object).isRequired,
-  interests: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default Main;
