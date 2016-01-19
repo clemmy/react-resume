@@ -133,6 +133,7 @@ const DATA = {
         'Worked with the team to implement features and fix faults for an administrative application that allows users to view and configure distributed storage systems through iSCSI LUNS',
         'Added core features to an in-house Javascript SPA framework including duplex streams for model access and React support',
         'Collaborated with client engineers to implement a CLI for interacting with the distributed system',
+        'Reduced JS bundle size by over 50% by de-duplicating the dependency tree'
       ],
     }, {
       name: 'Ten Thousand Coffees',
