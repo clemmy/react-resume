@@ -11,8 +11,8 @@ const Sidebar = ({ data }) => (
       <ContactLinks data={data.links} />
       <HorizontalRule />
       <Languages data={data.languages} />
-      <SidebarList title="Libraries" items={data.libraries} />
-      <SidebarList title="Frameworks" items={data.frameworks} />
+      <SidebarList title="Frameworks/Libraries" items={data.libraries} />
+      <SidebarList title="Databases" items={data.databases} />
       <SidebarList title="Tools" items={data.tools} />
       <HorizontalRule />
     </div>
