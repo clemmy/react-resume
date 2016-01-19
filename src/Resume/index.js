@@ -160,7 +160,7 @@ const DATA = {
     projects: [{
       name: 'Coastline Market',
       tools: ['MongoDB', 'Angular', 'Node.js', 'ES7', 'Express'],
-      link: 'http://www.coastlinemarket.com/',
+      link: 'http://www.coastlinemarket.com',
       achievements: [
         'Worked with a small team to build a startup that solves a lot of the fishing industry\'s pain points. The product includes e-commerce for fishing as well as inventory management software as a service.'
       ],
