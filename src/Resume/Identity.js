@@ -23,7 +23,6 @@ const style = {
   h1: {
     display: 'block',
     fontSize: '1.8rem',
-    color: 'rgba(47, 152, 175, 1)',
   },
   h2: {
     fontSize: '1.4rem'

@@ -10,7 +10,6 @@ import Identity from './Identity';
 
 const Main = ({ firstName, lastName, program, companies, projects, interests }) => (
   <section style={style.main}>
-    <Identity firstName={firstName} lastName={lastName} program={program} />
     <MainHeading title="+ Work Experience" />
     <Companies data={companies} />
     <MainHeading title="+ Projects" />
@@ -29,7 +28,7 @@ const Main = ({ firstName, lastName, program, companies, projects, interests }) 
 
 const style = {
   main: {
-    padding: '2rem 1.25rem',
+    paddingRight: '1.25rem',
   },
 };
 

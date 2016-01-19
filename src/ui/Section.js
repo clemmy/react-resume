@@ -2,8 +2,9 @@ import React, { PropTypes } from 'react';
 
 const Section = ({ color, children }) => (
   <section style={{
+    marginTop: '-0.6rem',
     borderTop: '0.1px solid ' + color,
-    marginBottom: '1rem',
+    marginBottom: '-0.4rem',
     padding: '0.025rem 1.2rem',
   }}>
     {children}

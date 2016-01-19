@@ -19,6 +19,7 @@ const style = {
   name: {
     fontSize: '1rem',
     fontWeight: 'bold',
+    color: 'rgb(77, 100, 141)'
   },
   tools: {
     fontSize: '0.75rem',

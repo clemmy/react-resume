@@ -9,12 +9,10 @@ const Sidebar = ({ data }) => (
   <section style={style.main}>
     <div>
       <ContactLinks data={data.links} />
-      <HorizontalRule />
       <Languages data={data.languages} />
-      <SidebarList title="Frameworks/Libraries" items={data.libraries} />
-      <SidebarList title="Databases" items={data.databases} />
-      <SidebarList title="Tools" items={data.tools} />
-      <HorizontalRule />
+      <SidebarList title="+ LIB/FRAMEWORKS" items={data.libraries} />
+      <SidebarList title="+ DATABASES" items={data.databases} />
+      <SidebarList title="+ TOOLS" items={data.tools} />
     </div>
     <div>
       <Education
@@ -26,12 +24,12 @@ const Sidebar = ({ data }) => (
 
 const style = {
   main: {
-    width: '34%',
+    width: '32%',
     backgroundColor: 'rgba(118,136,169,0.125)',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-between',
-    padding: '1.4rem',
+    padding: '0 1.2rem 1.2rem 1.2rem',
     color: 'rgb(5, 24, 56)',
   },
 };

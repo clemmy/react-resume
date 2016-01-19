@@ -3,7 +3,7 @@ import SidebarHeading from './SidebarHeading';
 
 const Education = ({ university, duration }) => (
   <section style={style.main}>
-    <SidebarHeading align="left">Education</SidebarHeading>
+    <SidebarHeading align="left">+ EDUCATION</SidebarHeading>
     <div style={{
       ...style.text,
       fontWeight: 'bold',

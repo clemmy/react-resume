@@ -9,12 +9,12 @@ class Resume extends Component {
   render() {
     return (
       <Container>
-        <Header />
+        <Header {...DATA.main} />
         <div style={{ display: 'flex' }}>
           <Main {...DATA.main} />
           <Sidebar data={DATA.sidebar} />
         </div>
-        <Footer />
+        {/*}<Footer />*/}
       </Container>
     );
   }

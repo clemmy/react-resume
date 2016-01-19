@@ -18,7 +18,7 @@ function createLink(link) {
 
 const style = {
   main: {
-    margin: '1rem 0',
+    margin: '1rem 0 0 0.2rem',
   },
   list: {
     margin: 0,
