@@ -153,8 +153,8 @@ const DATA = {
       location: 'Toronto',
       achievements: [
         'Enhanced robustness of financial software used by major banking corporations worldwide by fixing database and UI defects',
-        'Wrote E2E regression tests with a web interface that allowed company employees to configure and run tests on different staging environments with real-time logs',
-        'Improved company workflow by over 30\% by automating daily tasks such server updates, builds, maintenance, and server monitoring',
+        'Wrote E2E regression tests and a web interface that allowed company employees to configure and run tests on different staging environments with real-time logs',
+        'Improved company workflow by over 30\% by automating daily tasks such as server updates, builds, maintenance, and server monitoring',
       ],
     }],
     projects: [{
@@ -162,8 +162,7 @@ const DATA = {
       tools: ['MongoDB', 'Angular', 'Node.js', 'ES7', 'Express'],
       link: 'http://www.coastlinemarket.com/',
       achievements: [
-        'Authored utilities to query RIOT\'s APIs that seamlessly handle rate limiting',
-        'Built a React + Redux front-end to display Summoner Match history',
+        'Worked with a small team to build a startup that solves a lot of the fishing industry\'s pain points. The product includes e-commerce for fishing as well as inventory management software as a service.'
       ],
     }, {
       name: 'Squad',
