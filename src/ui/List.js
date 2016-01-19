@@ -15,8 +15,7 @@ const List = ({ items, style }) => (
           <li key={key}>
             <span>Link:</span><Link to={url}>{url}</Link>
           </li> :
-          <li key={key}>
-            { item }
+          <li key={key} dangerouslySetInnerHTML={{__html: item}}>
           </li>
         );
       })

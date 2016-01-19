@@ -25,3 +25,7 @@ h2 {
 h3 {
   font-size: 1.0rem;
 }
+
+b {
+  color: rgba(21, 44, 85, 1);
+}
