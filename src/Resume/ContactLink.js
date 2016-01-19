@@ -20,7 +20,8 @@ const style = {
     width: '1.6rem',
     height: '1.6rem',
     textAlign: 'center',
-    verticalAlign: 'middle'
+    verticalAlign: 'middle',
+    color: 'rgba(77, 100, 141, 1)'
   },
 };
 
