@@ -1,9 +1,9 @@
 import React, { PropTypes } from 'react';
 import Link from '../ui/Link';
 
-const ContactLink = ({ display, link, name }) => (
+const ContactLink = ({ display, link, faClass, name }) => (
   <div style={style.main}>
-    <span style={style.name}>{name}: </span><Link to={link}>{display}</Link>
+    <i className={faClass} style={style.icon}></i><Link to={link}>{display}</Link>
   </div>
 );
 
@@ -11,9 +11,16 @@ const style = {
   main: {
     display: 'flex',
     justifyContent: 'flex-start',
+    margin: '4px'
   },
-  name: {
-    fontWeight: 'bold',
+  icon: {
+    display:'inline-block',
+    fontSize: '1.6rem',
+    lineHeight: '1.6rem',
+    width: '1.6rem',
+    height: '1.6rem',
+    textAlign: 'center',
+    verticalAlign: 'middle'
   },
 };
 
@@ -21,6 +28,7 @@ ContactLink.propTypes = {
   display: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
+  faClass: PropTypes.string.isRequired,
 };
 
 export default ContactLink;

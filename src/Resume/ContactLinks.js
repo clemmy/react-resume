@@ -7,6 +7,7 @@ const ContactLinks = ({ data: links }) => (
     {links.map((link, key) => (
       <ContactLink
         display={link.display}
+        faClass={link.faClass}
         key={key}
         link={link.link}
         name={link.name} />

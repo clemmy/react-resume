@@ -24,7 +24,7 @@ const style = {
     flex: '1 1 auto',
     fontSize: '1.6rem',
     // background: 'rgba(118, 136, 169, 0.125)',
-    marginBottom: '-2.5em',
+    marginBottom: '-0.8em',
     height: '9rem',
   },
   h1: {

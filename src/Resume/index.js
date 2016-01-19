@@ -14,7 +14,7 @@ class Resume extends Component {
           <Main {...DATA.main} />
           <Sidebar data={DATA.sidebar} />
         </div>
-        {/*}<Footer />*/}
+        <Footer />
       </Container>
     );
   }
@@ -83,15 +83,18 @@ const DATA = {
     ],
     links: [{
       name: 'Phone',
+      faClass: 'fa fa-phone',
       display: '647 871 8336',
       link: 'tel:+16478718336',
     }, {
       name: 'Email',
+      faClass: 'fa fa-envelope',
       display: 'c8hoang@uwaterloo.ca',
       link: 'mailto:c8hoang@uwaterloo.ca',
     }, {
       name: 'GitHub',
-      display: 'https://github.com/clemmy',
+      faClass: 'fa fa-github',
+      display: 'github.com/clemmy',
       link: 'https://github.com/clemmy',
     }],
   },
