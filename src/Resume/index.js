@@ -14,7 +14,7 @@ class Resume extends Component {
           <Main {...DATA.main} />
           <Sidebar data={DATA.sidebar} />
         </div>
-        <Footer />
+        <Footer links={DATA.footerLinks} />
       </Container>
     );
   }
@@ -77,9 +77,9 @@ const DATA = {
       'Browserify',
     ],
     interests: [
-      'I <b>learn</b> about web, data science, and algorithms.',
+      'I <b>learn</b> about web, data science, algorithms, and great coding practices.',
       'I <b>dominate</b> in badminton, ping pong, League of Legends, and Tetris.',
-      'I <b>love</b> tacos, anime, bubble tea, and tourism.',
+      'I <b>love</b> tacos, anime, bubble tea, fitness, and tourism.',
     ],
     links: [{
       name: 'Phone',
@@ -98,6 +98,22 @@ const DATA = {
       link: 'https://github.com/clemmy',
     }],
   },
+  footerLinks: [{
+    name: 'Website',
+    faClass: 'fa fa-fire',
+    display: 'clemmy.ninja',
+    link: 'http://clemmy.ninja',
+  }, {
+    name: 'Blog',
+    faClass: 'fa fa-book',
+    display: 'blog.clementhoang.net',
+    link: 'http://blog.clementhoang.net',
+  }, {
+    name: 'Linkedin',
+    faClass: 'fa fa-linkedin',
+    display: 'linkedin.com/in/clementhoang',
+    link: 'https://www.linkedin.com/in/clementhoang',
+  }],
   main: {
     firstName: 'Clement',
     lastName: 'Hoang',

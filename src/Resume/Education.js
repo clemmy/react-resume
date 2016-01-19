@@ -15,7 +15,7 @@ const Education = ({ university, duration, degree }) => (
 
 const style = {
   main: {
-    margin: '1.5rem 0 0 0',
+    margin: '0.4rem 0 0 0',
   },
   text: {
     textAlign: 'left',
