@@ -20,20 +20,24 @@ const Header = ({ firstName, lastName, program }) => {
 
 const style = {
   main: {
-    padding: '6px 0 6px 24px',
-    // color: 'white',
+    padding: '14px 0 1px 24px',
     flex: '1 1 auto',
     fontSize: '1.6rem',
-    // background: 'rgba(47, 152, 175, 1)',
     background: 'rgba(118, 136, 169, 0.125)',
-    marginBottom: '1.5em'
+    marginBottom: '-2.5em',
+    height: '9rem',
   },
   h1: {
+    color: 'rgb(21, 44, 85)',
     display: 'block',
     fontSize: '3.4rem',
   },
   program: {
-    fontSize: '1.2rem'
+    fontSize: '1.2rem',
+    display: 'block',
+    marginLeft: '5px',
+    marginTop: '-6px',
+    color: 'rgb(77, 100, 141)'
   },
   span: {
     display: 'inline-block',
