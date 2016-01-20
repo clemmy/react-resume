@@ -1,5 +1,5 @@
 {
-  "name": "resume-react",
+  "name": "3a-resume",
   "version": "0.1.0",
   "description": "A resume written using react!",
   "scripts": {
@@ -14,8 +14,8 @@
     "url": "https://github.com/ramanpreetnara/resume-react.git"
   },
   "license": "CC0-1.0",
-  "author": "Ramanpreet Nara <ramanpreetnara@gmail.com> (http://github.com/ramanpreetnara)",
-  "homepage": "https://github.com/ramanpreetnara/resume-react",
+  "author": "Clement Hoang <clement.hoang24@gmail.com> (http://github.com/clemmy)",
+  "homepage": "https://github.com/clemmy/3a-resume",
   "devDependencies": {
     "babel-core": "^6.3.15",
     "babel-eslint": "^5.0.0-beta4",
