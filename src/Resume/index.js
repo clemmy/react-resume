@@ -170,7 +170,7 @@ const DATA = {
       tools: ['React Native', 'Redux', 'Koa', 'ES6', 'Immutable', 'PostgreSQL'],
       link: 'http://github.com/gosquad',
       achievements: [
-        'Built an iOS and Android application that allows users to form small "squads" which consist of users that interact with each other a lot on a daily basis, and simplifies communication and coordination with features such as discussion boards, polls, and event scheduling.',
+        'Built an iOS and Android application that allows users to form social networks and simplifies communication and coordination with various features.',
       ],
     }, {
       name: 'Query',
