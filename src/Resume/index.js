@@ -77,9 +77,10 @@ const DATA = {
       'Browserify',
     ],
     interests: [
-      'I <b>learn</b> about web, data science, algorithms, and great coding practices.',
+      'I <b>learn</b> about web, data science, and, algorithms.',
       'I <b>dominate</b> in badminton, ping pong, League of Legends, and Tetris.',
-      'I <b>love</b> tacos, anime, bubble tea, fitness, and tourism.',
+      'I <b>love</b> tacos, anime, bubble tea, fitness, tourism, and team players.',
+      'I <b>hate</b> doing planks.'
     ],
     links: [{
       name: 'Phone',
