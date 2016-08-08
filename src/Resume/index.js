@@ -34,16 +34,16 @@ const DATA = {
       name: 'HTML/CSS',
       proficiency: 0.4,
     }, {
-      name: 'C++',
-      proficiency: 0.6,
-    }, {
-      name: 'C#',
+      name: 'Scala',
       proficiency: 0.6,
     }, {
       name: 'Python',
       proficiency: 0.6,
     }, {
       name: 'Java',
+      proficiency: 0.6,
+    }, {
+      name: 'C++',
       proficiency: 0.6,
     }, {
       name: 'BASH',
@@ -62,11 +62,13 @@ const DATA = {
       'Node.js',
       'Express',
       'Koa',
+      'Django',
       'Angular',
       'Mocha',
       'jQuery',
       'Meteor',
-      'Sass'
+      'Sass',
+      'Android SDK'
     ],
     tools: [
       'Unix',
@@ -75,6 +77,8 @@ const DATA = {
       'Gulp',
       'Grunt',
       'Browserify',
+      'AWS',
+      'Docker'
     ],
     interests: [
       'I <b>learn</b> about web, data science, and, algorithms.',
