@@ -128,6 +128,18 @@ const DATA = {
       name: 'Software Engineering',
     },
     companies: [{
+      name: 'Zenreach',
+      title: 'Front-end Developer',
+      color: 'rgb(77, 100, 141)',
+      date: 'Spring 2016',
+      location: 'San Francisco',
+      achievements: [
+        'Worked on customer dashboard with drag & drop email composer, hotspot landing page customization, and customer management using <b>React</b> with a <b>Django</b> backend',
+        'Improved the stability of <b><a href="https://github.com/quilljs/quill/releases/tag/v1.0.0-beta.8">Quill</a></b>, an open-sourced WYSIWG editor written in <b>ES6</b>, with over <b>7000</b> stars on Github',
+        'Built interactive visualization tool for customer email client data, made insights, and improved product browser coverage to over <b>99%</b>',
+        'Added event tracking infrastructure throughout the customer dashboard and performed behavioural analytics with <b>Amplitude</b>'
+      ],
+    }, {
       name: 'Datera',
       color: 'rgb(77, 100, 141)',
       title: 'Full Stack JavaScript Developer',
@@ -148,20 +160,9 @@ const DATA = {
       location: 'Toronto',
       achievements: [
         'Re-architected the entire messaging system to support multiple participants and an user-friendly scheduling system using the <b>MEAN</b> stack',
-        'Improved user retention on platform by <b>20%</b> using Mandrill for transactional and digest emails with Segment.io for tracking analytics',
+        'Improved user retention on platform by <b>20%</b> using Mandrill for transactional and digest emails by running A/B tests with KissMetrics',
         'Added internationalization support for the entire application with angular-translate',
       ]
-    }, {
-      name: 'Objectifi',
-      title: 'Interactive Developer',
-      color: 'rgb(77, 100, 141)',
-      date: 'Spring 2014',
-      location: 'Toronto',
-      achievements: [
-        'Enhanced robustness of financial software used by major banking corporations worldwide by fixing database and UI defects',
-        'Wrote E2E regression tests and a web interface that allowed company employees to configure and run tests on different staging environments with real-time logs using <b>ASP.NET MVC</b>',
-        'Improved company workflow by over <b>30%</b> by automating daily tasks such as server updates, builds, maintenance, and server monitoring',
-      ],
     }],
     projects: [{
       name: 'Coastline Market',
