@@ -127,6 +127,10 @@ const DATA = {
       nickname: 'Software Engineering',
       name: 'Software Engineering',
     },
+    website: {
+      name: 'clemmy.ninja',
+      link: 'http://clemmy.ninja'
+    },
     companies: [{
       name: 'Zenreach',
       title: 'Front-end Developer',
