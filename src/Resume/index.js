@@ -169,18 +169,18 @@ const DATA = {
       ]
     }],
     projects: [{
+      name: 'Vio',
+      tools: ['React', 'Redux', 'ES6', 'Go', 'PostgreSQL', 'Google Cloud'],
+      link: 'https://github.com/jasonf7/memories-of-harambe',
+      achievements: [
+        'Built a mobile-friendly web application that allows users to film location-based video diaries with sentimental analysis.'
+      ]
+    }, {
       name: 'Coastline Market',
       tools: ['MongoDB', 'Angular', 'Node.js', 'ES7', 'Express', 'AWS'],
       link: 'http://www.coastlinemarket.com',
       achievements: [
         'Worked with a small team to build a startup that solves a lot of the fishing industry\'s pain points. The product includes e-commerce for fishing as well as inventory management software as a service.'
-      ],
-    }, {
-      name: 'Squad',
-      tools: ['React Native', 'Redux', 'Koa', 'ES6', 'Immutable', 'PostgreSQL'],
-      link: 'http://github.com/gosquad',
-      achievements: [
-        'Built an iOS and Android application that allows users to form social networks and simplifies communication and coordination with various features.',
       ],
     }, {
       name: 'Query',
