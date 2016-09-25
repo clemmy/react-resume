@@ -89,8 +89,8 @@ const DATA = {
     links: [{
       name: 'Phone',
       faClass: 'fa fa-phone',
-      display: '647 871 8336',
-      link: 'tel:+16478718336',
+      display: '647 571 9781',
+      link: 'tel:+16475719781',
     }, {
       name: 'Email',
       faClass: 'fa fa-envelope',
@@ -123,7 +123,7 @@ const DATA = {
     firstName: 'Clement',
     lastName: 'Hoang',
     program: {
-      term: '3A',
+      term: '3B',
       nickname: 'Software Engineering',
       name: 'Software Engineering',
     },
