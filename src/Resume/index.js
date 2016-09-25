@@ -139,7 +139,7 @@ const DATA = {
       location: 'San Francisco',
       achievements: [
         'Worked on customer dashboard with drag & drop email composer, hotspot landing page customization, and customer management using <b>React</b> with a <b>Django</b> backend',
-        'Improved the stability of <b><a href="https://github.com/quilljs/quill/releases/tag/v1.0.0-beta.8">Quill</a></b>, an open-sourced WYSIWG editor written in <b>ES6</b>, with over <b>7000</b> stars on Github',
+        'Improved the stability of <b><a href="https://github.com/quilljs/quill/releases/tag/v1.0.0-beta.8">Quill</a></b>, an open-sourced WYSIWG editor written in <b>ES6</b>, with over <b>10k</b> stars on Github',
         'Built interactive visualization tool for customer email client data, made insights, and improved product browser coverage to over <b>99%</b>',
         'Added event tracking infrastructure throughout the customer dashboard and performed behavioural analytics with <b>Amplitude</b>'
       ],
