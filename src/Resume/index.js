@@ -28,8 +28,11 @@ const DATA = {
       degree: 'Bachelor of Software Engineering'
     },
     languages: [{
-      name: 'JavaScript',
+      name: 'JavaScript (ES2015)',
       proficiency: 0.8,
+    }, {
+      name: 'Python',
+      proficiency: 0.7,
     }, {
       name: 'HTML/CSS',
       proficiency: 0.4,
@@ -37,53 +40,54 @@ const DATA = {
       name: 'Scala',
       proficiency: 0.6,
     }, {
-      name: 'Python',
-      proficiency: 0.6,
-    }, {
-      name: 'Java',
-      proficiency: 0.6,
-    }, {
       name: 'C++',
       proficiency: 0.6,
     }, {
       name: 'BASH',
-      proficiency: 0.3,
+      proficiency: 0.5,
     }],
     databases: [
       'MongoDB',
-      'PostgreSQL',
+      'Redshift/PostgreSQL',
       'MySQL'
     ],
     libraries: [
       'React',
       'React Native',
       'Redux',
-      'Immutable',
       'Node.js',
       'Express',
+      'Socket.io',
       'Koa',
+      'Scrapy',
+      'Gensim',
+      'Scikit-Learn',
+      'NLTK',
       'Django',
       'Angular',
       'Mocha',
       'jQuery',
-      'Meteor',
-      'Sass',
-      'Android SDK'
+      'Sass/Less'
     ],
     tools: [
+      'AWS (Redshift, S3, Lambda, Kinesis, EMR, EC2, SES, SNS)',
+      'Spark/Spark Streaming',
+      'Airflow',
+      'Jupyter',
+      'Zeppelin',
+      'Vim',
       'Unix',
       'Git',
       'Webpack',
       'Gulp',
       'Grunt',
       'Browserify',
-      'AWS',
       'Docker'
     ],
     interests: [
-      'I <b>learn</b> about web, data science, and, algorithms.',
-      'I <b>dominate</b> in badminton, ping pong, League of Legends, and Tetris.',
-      'I <b>love</b> tacos, anime, bubble tea, fitness, tourism, and team players.',
+      'I <b>learn</b> about web and startups.',
+      'I <b>dominate</b> in baddy, ping pong, League of Legends, and Tetris.',
+      'I <b>love</b> tacos, anime, bubble tea, fitness, traveling, and team players.',
       'I <b>hate</b> doing planks.'
     ],
     links: [{
