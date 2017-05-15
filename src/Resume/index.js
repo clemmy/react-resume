@@ -28,7 +28,7 @@ const DATA = {
       degree: 'Bachelor of Software Engineering'
     },
     languages: [{
-      name: 'JavaScript (ES2015)',
+      name: 'JavaScript/Node.js (ES2015)',
       proficiency: 0.8,
     }, {
       name: 'Python',
@@ -55,7 +55,7 @@ const DATA = {
       'React',
       'React Native',
       'Redux',
-      'Node.js',
+      'MobX',
       'Express',
       'Socket.io',
       'Koa',
@@ -71,17 +71,15 @@ const DATA = {
     ],
     tools: [
       'AWS (Redshift, S3, Lambda, Kinesis, EMR, EC2, SES, SNS)',
+      'Firebase',
       'Spark/Spark Streaming',
       'Airflow',
       'Jupyter',
       'Zeppelin',
-      'Vim',
       'Unix',
       'Git',
       'Webpack',
-      'Gulp',
-      'Grunt',
-      'Browserify',
+      'Gulp/Grunt',
       'Docker'
     ],
     interests: [
@@ -186,7 +184,7 @@ const DATA = {
       tools: [],
       achievements: [
         'Helped clients build fully fledged products such as <b><a href="https://www.coastlinemarket.com/">Coastline Market</a></b>, e-commerce and inventory management for fishing',
-        'Worked with small team to transform fun projects into market-ready products, such as <b><a href="https://medicov.io/">Medicov</a></b> and <b><a href="https://luql.io/">Luql</a></b>'
+        'Worked with small team to transform fun projects into real products, such as <b><a href="https://medicov.io/">Medicov</a></b> and <b><a href="https://luql.io/">Luql</a></b>'
       ]
     }, {
       name: 'Various Hacks',
