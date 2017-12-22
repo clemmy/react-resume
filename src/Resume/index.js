@@ -154,7 +154,7 @@ const DATA = {
         achievements: [
           'Championed the release of <b><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html">React Fragments</a></b> with React v16.2',
           'Prepared ecosystem for JSX fragments by submitting pull requests to open source libraries such as <b>Babel/Babylon</b> and reaching out to maintainers of popular Javascript libraries for collaboration',
-          'Made proposals and prototypes for various forms of <b>JSX</b> generator expressions,',
+          'Made proposals and prototypes for various forms of <b><a href="https://codepen.io/clemmy/pen/dZxObQ">JSX generator expressions</a></b>',
         ],
       },
       {
