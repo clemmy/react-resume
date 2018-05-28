@@ -149,7 +149,7 @@ const DATA = {
         name: 'Facebook',
         title: 'React Core Developer',
         color: 'rgb(77, 100, 141)',
-        date: 'Fall 2017',
+        date: 'Sept. 5, 2017 - Dec. 15, 2017',
         location: 'Menlo Park, US',
         achievements: [
           'Championed the release of <b><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html">React Fragments</a></b> with React v16.2',
@@ -161,7 +161,7 @@ const DATA = {
         name: 'Memebox',
         title: 'Data Engineer',
         color: 'rgb(77, 100, 141)',
-        date: 'Winter 2017',
+        date: 'Jan. 9, 2017 - Apr. 28, 2017',
         location: 'Seoul, Korea',
         achievements: [
           'Maintained stable data pipelines built with <b>Spark</b> and <b>Spark Streaming</b>, with <b>Airflow</b> for scheduling (50+ GB data flow daily)',
@@ -174,7 +174,7 @@ const DATA = {
         name: 'Zenreach',
         title: 'Web Developer',
         color: 'rgb(77, 100, 141)',
-        date: 'Spring 2016',
+        date: 'May 9, 2016 - Aug. 26, 2016',
         location: 'San Francisco, US',
         achievements: [
           'Contributed major updates to <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 1.3k stars on Github',
@@ -186,7 +186,7 @@ const DATA = {
         name: 'Datera',
         color: 'rgb(77, 100, 141)',
         title: 'Full Stack JavaScript Engineer',
-        date: 'Fall 2015',
+        date: 'Aug. 31, 2015 - Dec. 24, 2015',
         location: 'Mountain View, US',
         achievements: [
           'Built interactive API explorer using the JSONSchema standard with <b>AngularJS</b>',
