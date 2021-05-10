@@ -142,10 +142,10 @@ const DATA = {
         date: "Jun 2018 - present",
         location: "Menlo Park, US",
         achievements: [
-          "Tech lead responsible for driving high profile projects including Identity Monitoring, Credit Lock, Credit Health, and Relief Roadmap",
-          "Championed engineering efficiency and code quality by identifying technical debt early, raising awareness about it, then mitigating it",
-          "Mentored and grew others by running engineering bootcamps, mentoring interns, training new hires, and conducting team knowledge shares",
-          "Collaborated with platform team to build out key components of CK Containers, an internal platform used throughout the company to enable config-driven cross-platform experiences, and spoke about it at React Case Study Festival",
+          "Led development of <b>high profile initiatives</b> including Credit Lock, Credit Health, Relief Roadmap, and Credit Card Debt Journey",
+          "Cultivated team engineering culture that values <b>maintainability</b>, resulting in increased code and documentation quality",
+          "Grew others by <b>mentoring</b> interns and junior engineers, facilitating engineering bootcamps, and conducting knowledge shares within the organization",
+          'Collaborated with platform team to build <b>Containers</b>, a platform to create product experiences with faster time-to-market, and spoke about it at <b><a href="https://react.geekle.us/">React Geekle</a></b>',
         ],
       },
       {
@@ -153,10 +153,11 @@ const DATA = {
         title: "Co-founder & CTO",
         color: "rgb(77, 100, 141)",
         date: "Oct 2016 - Feb 2018",
-        location: "Menlo Park, US",
+        location: "Waterloo, CA",
         achievements: [
-          "Participate in client meetings to negotiate requirements and pricing",
-          "Manage small team to produce high quality deliverables that exceed timeline and budgetary targets",
+          'Managed team of 3 engineers to architect and ship <b><a href="https://freshline.io/">Freshline</a></b> MVP within timeline budget',
+          "Participated in customer meetings to <b>negotiate</b> product requirements and pricing",
+          "Designed, architected, and developed several <b>stealth apps</b> using React, React Native, Node, and various third-party data APIs",
         ],
       },
       {
@@ -167,7 +168,7 @@ const DATA = {
         location: "Menlo Park, US",
         achievements: [
           'Championed the release of <b><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html">React Fragments</a></b> with React v16.2',
-          "Prepared ecosystem for JSX fragments by submitting pull requests to open source libraries such as <b>Babel/Babylon</b> and reaching out to maintainers of popular Javascript libraries for collaboration",
+          "Seamlessly integrated JSX fragments into the web ecosystem by submitting pull requests to open source libraries such as <b>Babel/Babylon</b> and reaching out to maintainers of popular Javascript libraries for collaboration",
           'Made proposals and prototypes for various forms of <b><a href="https://codepen.io/clemmy/pen/dZxObQ">JSX generator expressions</a></b>',
         ],
       },
@@ -178,10 +179,10 @@ const DATA = {
         date: "Jan 2017 - Apr 2017",
         location: "Seoul, Korea",
         achievements: [
-          "Maintained stable data pipelines built with <b>Spark</b> and <b>Spark Streaming</b>, with <b>Airflow</b> for scheduling (50+ GB data flow daily)",
-          "Built <b>real time</b> data visualization and alerting tools",
-          "Wrote data extraction tool for external sites using <b>Scrapy</b> that automatically refreshes for stale data periodically",
-          "Extracted keywords from Korean text for tagging products",
+          "Built and maintained stable data pipelines built with <b>Spark</b> and <b>Spark Streaming</b>, with <b>Airflow</b> for scheduling (50+ GB data flow daily) running on AWS",
+          "Created <b>real time</b> data visualization and alerting tools",
+          "Architected a data extraction tool using <b>Scrapy</b> with efficient periodic refreshes for an external sites with thousands of pages.",
+          "Extracted keywords for tagging beauty products based on reviews using <b>natural language processing</b> on Korean corpus",
         ],
       },
       {
@@ -191,9 +192,10 @@ const DATA = {
         date: "May 2016 - Aug 2016",
         location: "React, Django, etc.",
         achievements: [
-          'Contributed major updates to <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 1.3k stars on Github',
-          "Created interactive visualizations for customer data, improving browser coverage to over <b>99%</b>",
-          "Built drag & drop email composer using <b>React</b> with <b>Django</b>, with event tracking infrastructure and behavioural analytics",
+          'Spearheaded major migration initiative from v1 to v2 in <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 1.3k stars on Github',
+          "Designed and architected <b>event tracking</b> infrastructure, and built interactive tool to <b>visualize</b> this data, enabling data-driven product decisions.",
+          "Built WYSIWIG drag & drop email composer using <b>React</b> with <b>Django</b>",
+          
         ],
       },
       {
@@ -203,9 +205,9 @@ const DATA = {
         date: "Sept 2015 - Dec 2015",
         location: "Mountain View, US",
         achievements: [
-          "Built interactive API explorer using the JSONSchema standard with <b>AngularJS</b>",
+          "Built an interactive API explorer using the JSONSchema standard with <b>AngularJS</b>",
           "Added core features to an in-house <b>Javascript</b> SPA framework including duplex streams for model access and <b>React</b> support",
-          "Designed and built admin panel for a distributed storage system",
+          "Designed and built an admin panel for a distributed storage system",
         ],
       },
     ],
