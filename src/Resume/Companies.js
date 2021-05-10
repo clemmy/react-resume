@@ -10,7 +10,6 @@ const Companies = ({ data: companies }) => (
         name={company.name}
         title={company.title}
         date={company.date}
-        location={company.location}
         achievements={company.achievements} />
     ))}
   </div>

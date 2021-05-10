@@ -1,6 +1,6 @@
 import React, { PropTypes } from "react";
 
-const CompanyHeading = ({ style, company, title, date, location }) => (
+const CompanyHeading = ({ style, company, title, date }) => (
   <div style={{ ...defaultStyles.main, ...style }}>
     <div style={defaultStyles.company}>
       {company}
