@@ -180,8 +180,8 @@ const DATA = {
         location: "Seoul, Korea",
         achievements: [
           "Built and maintained stable data pipelines built with <b>Spark</b> and <b>Spark Streaming</b>, with <b>Airflow</b> for scheduling (50+ GB data flow daily) running on AWS",
-          "Created <b>real time</b> data visualization and alerting tools",
-          "Architected a data extraction tool using <b>Scrapy</b> with efficient periodic refreshes for an external sites with thousands of pages.",
+          "Created <b>real-time</b> data visualization and alerting tools",
+          "Architected a data extraction tool using <b>Scrapy</b> with efficient periodic refreshes for an external site with thousands of pages.",
           "Extracted keywords for tagging beauty products based on reviews using <b>natural language processing</b> on Korean corpus",
         ],
       },
@@ -193,7 +193,7 @@ const DATA = {
         location: "React, Django, etc.",
         achievements: [
           'Spearheaded major migration initiative from v1 to v2 in <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 1.3k stars on Github',
-          "Designed and architected <b>event tracking</b> infrastructure, and built interactive tool to <b>visualize</b> this data, enabling data-driven product decisions.",
+          "Designed and architected <b>event tracking</b> infrastructure, and built an interactive tool to <b>visualize</b> this data, enabling data-driven product decisions.",
           "Built WYSIWIG drag & drop email composer using <b>React</b> with <b>Django</b>",
           
         ],
