@@ -8,7 +8,6 @@ const Companies = ({ data: companies }) => (
         color={company.color}
         key={key}
         name={company.name}
-        projects={company.projects}
         title={company.title}
         date={company.date}
         location={company.location}

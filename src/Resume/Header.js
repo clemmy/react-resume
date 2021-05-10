@@ -1,10 +1,7 @@
 import React, { PropTypes } from 'react';
 import Link from '../ui/Link';
 
-const Header = ({ firstName, lastName, program, website }) => {
-
-  const { nickname, term } = program;
-
+const Header = ({ firstName, lastName, title, website }) => {
   return (
     <section style={style.main}>
       <h1 style={style.h1}>
@@ -13,7 +10,7 @@ const Header = ({ firstName, lastName, program, website }) => {
         <span style={style.span}>{lastName.toUpperCase()}</span>
       </h1>
       <span style={style.program}>
-        {term} {nickname} | <Link to={website.link} style={{padding: 0}}>{website.name}</Link>
+        {title} | <Link to={website.link} style={{padding: 0}}>{website.name}</Link>
       </span>
     </section>
   );
@@ -24,7 +21,6 @@ const style = {
     padding: '16px 0 1px 0',
     flex: '1 1 auto',
     fontSize: '1.6rem',
-    // background: 'rgba(118, 136, 169, 0.125)',
     marginBottom: '-0.4em',
     height: '9rem',
   },
@@ -48,7 +44,8 @@ const style = {
 Header.propTypes = {
   firstName: PropTypes.string.isRequired,
   lastName: PropTypes.string.isRequired,
-  program: PropTypes.object.isRequired,
+  title: PropTypes.string.isRequired,
+  website: PropTypes.object.isRequired,
 };
 
 export default Header;
