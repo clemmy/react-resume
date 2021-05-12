@@ -23,7 +23,7 @@ export default {
       },
     ],
     about:
-      "My favorite job is to build amazing experiences with amazing teams. I greatly value team culture and enjoy mentoring others. I am also an advocate for maintainable code delivered delivered an incremental approach. I specialize in full-stack product engineering, with 5+ years of experience.",
+      "My favorite job is to build amazing experiences with amazing teams. I greatly value team culture and enjoy mentoring others. I am also an advocate for maintainable code delivered with an incremental approach. I specialize in full-stack product engineering, with 5+ years of experience.",
     technologies: [
       "Node",
       "React",
@@ -135,7 +135,7 @@ export default {
         date: "Sept 2017 - Dec 2017",
         location: "Menlo Park, US",
         achievements: [
-          'Championed the release of <b><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html">React Fragments</a></b> with React v16.2',
+          'Championed the release of <b><a href="https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html">React Fragments</a></b> in React v16.2',
           "Seamlessly integrated JSX fragments into the web ecosystem by submitting pull requests to open source libraries such as <b>Babel/Babylon</b> and reaching out to maintainers of popular Javascript libraries for collaboration",
           'Made proposals and prototypes for various forms of <b><a href="https://codepen.io/clemmy/pen/dZxObQ">JSX generator expressions</a></b>',
         ],
@@ -160,7 +160,7 @@ export default {
         date: "May 2016 - Aug 2016",
         location: "React, Django, etc.",
         achievements: [
-          'Spearheaded major migration initiative from v1 to v2 in <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 1.3k stars on Github',
+          'Spearheaded major migration initiative from v1 to v2 in <b><a href="https://github.com/zenoamaro/react-quill">react-quill</a></b> project with 4.3k stars on Github',
           "Designed and architected <b>event tracking</b> infrastructure, and built an interactive tool to <b>visualize</b> this data, enabling data-driven product decisions.",
           "Built WYSIWIG drag & drop email composer using <b>React</b> with <b>Django</b>",
         ],
