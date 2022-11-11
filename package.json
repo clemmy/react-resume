@@ -34,7 +34,7 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
     "normalize.css": "^3.0.3",
-    "radium": "^0.15.3",
+    "radium": "^0.26.2",
     "rimraf": "^2.4.3",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
