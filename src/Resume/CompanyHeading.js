@@ -3,7 +3,7 @@ import React, { PropTypes } from "react";
 const CompanyHeading = ({ style, company, title, date }) => (
   <div style={{ ...defaultStyles.main, ...style }}>
     <div style={defaultStyles.company}>
-      {company}
+      <div style={defaultStyles.companyName}>{company}</div>
       <div style={defaultStyles.title}>{title}</div>
     </div>
     <div style={defaultStyles.date}>{date}</div>
@@ -22,18 +22,21 @@ const defaultStyles = {
     fontWeight: "bold",
     color: "rgba(77, 100, 141, 1)",
     padding: "0.25rem",
+    display: "flex",
+    flexDirection: "column", // Make children stack vertically
   },
   title: {
     display: "inline-block",
     fontSize: "1rem",
     color: "rgba(78, 78, 78 , 1)",
-    padding: "0.25rem",
-    fontWeight: "300",
+    padding: "0.05rem",
+    fontWeight: 550,
   },
   date: {
     fontSize: "0.9rem",
     color: "rgba(77, 100, 141, 0.75)",
     padding: "0.25rem",
+    marginTop: "-1.5rem", // Adjust the vertical position by changing the marginTop value
   },
 };
 

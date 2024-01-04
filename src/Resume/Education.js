@@ -1,15 +1,19 @@
 import React, { PropTypes } from 'react';
 import SidebarHeading from './SidebarHeading';
 
-const Education = ({ university, duration, degree }) => (
+const Education = ({ education }) => (
   <section style={style.main}>
-    <SidebarHeading align="left">+ EDUCATION</SidebarHeading>
-    <div style={{
-      ...style.text,
-      fontWeight: 'bold',
-    }}>{university}</div>
-    <div>{degree}</div>
-    <div style={style.text}>{duration}</div>
+    {/* Check if there's education data before rendering the heading */}
+    {education && education.length > 0 && (
+      <SidebarHeading align="left"> EDUCATION</SidebarHeading>
+    )}
+    {education.map((entry, index) => (
+      <div key={index}>
+        <div style={{ ...style.text, fontWeight: 'bold' }}>{entry.university}</div>
+        <div>{entry.degree}</div>
+        <div style={style.text}>{entry.duration}</div>
+      </div>
+    ))}
   </section>
 );
 
@@ -23,8 +27,13 @@ const style = {
 };
 
 Education.propTypes = {
-  university: PropTypes.string.isRequired,
-  duration: PropTypes.string.isRequired,
+  education: PropTypes.arrayOf(
+    PropTypes.shape({
+      university: PropTypes.string.isRequired,
+      duration: PropTypes.string.isRequired,
+      degree: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default Education;

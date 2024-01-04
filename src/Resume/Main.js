@@ -6,7 +6,7 @@ import MainHeading from "./MainHeading";
 
 const Main = ({ companies }) => (
   <section style={style.main}>
-    <MainHeading title="+ Work Experience" />
+    <MainHeading title="> Select Experience" />
     <Companies data={companies} />
   </section>
 );

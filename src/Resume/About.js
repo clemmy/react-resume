@@ -3,9 +3,8 @@ import SidebarHeading from "./SidebarHeading";
 
 const About = ({ about }) => (
   <section style={style.main}>
-    <SidebarHeading>+ ABOUT</SidebarHeading>
-    <div style={style.content}>{about}</div>
-  </section>
+    <SidebarHeading>> ABOUT</SidebarHeading>
+    <div style={style.content} dangerouslySetInnerHTML={{ __html: about }} />  </section>
 );
 
 const style = {

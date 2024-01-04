@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clemmy/react-resume.git"
+    "url": "git+https://github.com/clemmy/react-resume.git"
   },
   "license": "CC0-1.0",
   "author": "Clement Hoang <clement.hoang24@gmail.com> (http://github.com/clemmy)",
@@ -32,17 +32,22 @@
     "eslint-plugin-babel": "^3.0.0",
     "eslint-plugin-react": "^3.11.3",
     "eventsource-polyfill": "^0.9.6",
-    "express": "^4.13.3",
+    "express": "^4.18.2",
     "normalize.css": "^3.0.3",
-    "radium": "^0.15.3",
+    "radium": "^0.26.2",
     "rimraf": "^2.4.3",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
-    "webpack-hot-middleware": "^2.6.0"
+    "webpack-hot-middleware": "^2.26.0"
   },
   "dependencies": {
     "react": "^0.14.3",
     "react-dom": "^0.14.3"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/clemmy/react-resume/issues"
+  },
+  "main": "convertToPDF.js",
+  "keywords": []
 }
