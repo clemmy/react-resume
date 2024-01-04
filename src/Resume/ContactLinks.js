@@ -3,7 +3,7 @@ import ContactLink from './ContactLink';
 
 const ContactLinks = ({ data: links }) => (
   <section style={style.main}>
-    <h1 style={style.heading}>+ CONTACT</h1>
+    <h1 style={style.heading}>> CONTACT</h1>
     {links.map((link, key) => (
       <ContactLink
         display={link.display}
