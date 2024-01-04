@@ -30,11 +30,7 @@ const defaultStyles = {
     fontSize: "1rem",
     color: "rgba(78, 78, 78 , 1)",
     padding: "0.05rem",
-<<<<<<< Updated upstream
-    fontWeight: 550,
-=======
-    fontWeight: "500",
->>>>>>> Stashed changes
+    fontWeight: 500,
   },
   date: {
     fontSize: "0.9rem",
