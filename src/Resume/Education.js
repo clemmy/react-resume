@@ -3,10 +3,7 @@ import SidebarHeading from './SidebarHeading';
 
 const Education = ({ education }) => (
   <section style={style.main}>
-    {/* Check if there's education data before rendering the heading */}
-    {education && education.length > 0 && (
-      <SidebarHeading align="left"> EDUCATION</SidebarHeading>
-    )}
+    <SidebarHeading align="left">+ EDUCATION</SidebarHeading>
     {education.map((entry, index) => (
       <div key={index}>
         <div style={{ ...style.text, fontWeight: 'bold' }}>{entry.university}</div>
